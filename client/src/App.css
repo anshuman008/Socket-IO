@@ -1,0 +1,33 @@
+.chat-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.socket-id-display, .room-form, .message-form {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.message-display {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+    background-color: #fff;
+}
+
+.message {
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+}
