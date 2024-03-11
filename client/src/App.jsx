@@ -5,7 +5,7 @@ import './App.css'; // Import your custom CSS
 
 const App = () => {
 
-const socket =useMemo(()=>  io("http://localhost:3000"),[]);
+const socket =useMemo(()=>  io("https://socket-io-3.onrender.com"),[]);
 
 const [allmessages,setallmessages] = useState([]);
 const [message,setMessage] = useState("");

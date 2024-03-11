@@ -15,7 +15,7 @@ const server = createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: "*", // The frontend origin
+        origin: "https://socket-io-4.onrender.com/", // The frontend origin
         methods: ["GET", "POST"],
         credentials: true // Corrected the case
     }
