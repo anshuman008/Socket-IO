@@ -15,11 +15,12 @@ const server = createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: "https://socket-io-4.onrender.com/", // The frontend origin
-        methods: ["GET", "POST"],
-        credentials: true // Corrected the case
+      origin: "https://socket-io-4.onrender.com", // The frontend origin
+      methods: ["GET", "POST"],
+      credentials: true // Corrected the case
     }
-});
+  });
+  
 
 io.on("connection", (socket) => {
     console.log("User Connected, Id:", socket.id);
